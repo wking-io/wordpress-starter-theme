@@ -29,6 +29,7 @@
     "webpack": "^2.5.1"
   },
   "dependencies": {
-    "include-media": "^1.4.9"
+    "include-media": "^1.4.9",
+    "normalize.css": "^7.0.0"
   }
 }
