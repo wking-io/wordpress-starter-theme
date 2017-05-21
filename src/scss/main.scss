@@ -1,0 +1,20 @@
+@import "vendors/module";
+@import "utils/module";
+@import "base/module";
+@import "layout/module";
+@import "components/module";
+@import "pages/module";
+
+/* Test To Make Sure It Works */
+pre {
+  padding: 20px;
+  background: $primary-color;
+  color: #dedede;
+  text-shadow: 0 1px 1px rgba(#000, .5);
+}
+
+@include media (">xs", "<=s") {
+  pre {
+    padding: 12px;
+  }
+}
