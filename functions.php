@@ -147,3 +147,114 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Register google fonts.
+ *
+ */
+// function themeName_add_google_fonts() {
+//
+// wp_enqueue_style( 'wpb-google-fonts', 'https://fonts.googleapis.com/css?family=Droid+Serif:400,400i', false );
+// }
+// add_action( 'wp_enqueue_scripts', 'themeName_add_google_fonts' );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+// function themeName_widgets_init() {
+// 	register_sidebar( array(
+// 		'name'          => esc_html__( 'Widget Area', 'theme-name' ),
+// 		'id'            => 'header-widget-area',
+// 		'description'   => esc_html__( 'Add widgets here.', 'theme-name' ),
+// 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+// 		'after_widget'  => '</div>',
+// 		'before_title'  => '<h2 class="widget-title">',
+// 		'after_title'   => '</h2>',
+// 	) );
+// }
+// add_action( 'widgets_init', 'themeName_widgets_init' );
+
+/**
+ * Register new photo sizes.
+ *
+ */
+// function themeName_theme_setup() {
+//     add_image_size( 'new-size', 1600 );
+// }
+// add_action( 'after_setup_theme', 'themeName_theme_setup' );
+
+/**
+ * Register custom responsive sizes for images on site.
+ *
+ */
+// function themeName_post_thumbnail_sizes_attr($attr, $attachment, $size) {
+//     //Calculate Image Sizes by type and breakpoint
+//     if ($size === 'new-size') {
+//         $attr['sizes'] = '(max-width: 480px) 96vw, (max-width: 800px) 480px, 360px';
+//     }
+//     return $attr;
+// }
+// add_filter('wp_get_attachment_image_attributes', 'themeName_post_thumbnail_sizes_attr', 10 , 3);
+
+// /**
+//  * Pagination Function.
+//  */
+// function custom_pagination($numpages = '', $pagerange = '', $paged='') {
+//
+//   if (empty($pagerange)) {
+//     $pagerange = 2;
+//   }
+//
+//   /**
+//    * This first part of our function is a fallback
+//    * for custom pagination inside a regular loop that
+//    * uses the global $paged and global $wp_query variables.
+//    *
+//    * It's good because we can now override default pagination
+//    * in our theme, and use this function in default quries
+//    * and custom queries.
+//    */
+//   global $paged;
+//   if (empty($paged)) {
+//     $paged = 1;
+//   }
+//   if ($numpages == '') {
+//     global $wp_query;
+//     $numpages = $wp_query->max_num_pages;
+//     if(!$numpages) {
+//         $numpages = 1;
+//     }
+//   }
+//
+//   /**
+//    * We construct the pagination arguments to enter into our paginate_links
+//    * function.
+//    */
+//   $pagination_args = array(
+//     'base'            => get_pagenum_link(1) . '%_%',
+//     'format'          => 'page/%#%',
+//     'total'           => $numpages,
+//     'current'         => $paged,
+//     'show_all'        => False,
+//     'end_size'        => 1,
+//     'mid_size'        => $pagerange,
+//     'prev_next'       => True,
+//     'prev_text'       => __('&laquo; Newer'),
+//     'next_text'       => __('Older &raquo;'),
+//     'type'            => 'plain',
+//     'add_args'        => false,
+//     'add_fragment'    => ''
+//   );
+//
+//   $paginate_links = paginate_links($pagination_args);
+//
+//   if ($paginate_links) {
+//     echo "<nav class='custom-pagination'>";
+//       // echo "<span class='page-numbers page-num'>Page " . $paged . " of " . $numpages . "</span> ";
+//       echo $paginate_links;
+//     echo "</nav>";
+//   }
+//
+// }
