@@ -1,197 +1,198 @@
 .content-wrapper {
+  width: 85vw;
   max-width: 72em;
   margin: 0 auto;
 }
 
 .xl-full {
-  width: calc(100 / 12) * 12;
+  width: 100%;
 }
 .xl-eleven-twelve {
-  width: calc(100 / 12) * 11;
+  width: calc(((100% / 12) * 11) - ($gutter / 2));
 }
 .xl-ten-twelve {
-  width: calc(100 / 12) * 10;
+  width: calc(((100% / 12) * 10) - ($gutter / 2));
 }
 .xl-nine-twelve {
-  width: calc(100 / 12) * 9;
+  width: calc(((100% / 12) * 9) - ($gutter / 2));
 }
 .xl-eight-twelve {
-  width: calc(100 / 12) * 8;
+  width: calc(((100% / 12) * 8) - ($gutter / 2));
 }
 .xl-seven-twelve {
-  width: calc(100 / 12) * 7;
+  width: calc(((100% / 12) * 7) - ($gutter / 2));
 }
 .xl-six-twelve {
-  width: calc(100 / 12) * 6;
+  width: calc(((100% / 12) * 6) - ($gutter / 2));
 }
 .xl-five-twelve {
-  width: calc(100 / 12) * 5;
+  width: calc(((100% / 12) * 5) - ($gutter / 2));
 }
 .xl-four-twelve {
-  width: calc(100 / 12) * 4;
+  width: calc(((100% / 12) * 4) - ($gutter / 2));
 }
 .xl-three-twelve {
-  width: calc(100 / 12) * 3;
+  width: calc(((100% / 12) * 3) - ($gutter / 2));
 }
-.xl-two-twelce {
-  width: calc(100 / 12) * 2;
+.xl-two-twelve {
+  width: calc(((100% / 12) * 2) - ($gutter / 2));
 }
 .xl-one-twelve {
-  width: calc(100 / 12);
+  width: calc((100 / 12) - ($gutter / 2));
 }
 
 @include media ('<=l') {
   .l-full {
-    width: calc(100 / 12) * 12;
+    width: 100%;
   }
   .l-eleven-twelve {
-    width: calc(100 / 12) * 11;
+    width: calc(((100% / 12) * 11) - ($gutter / 2));
   }
   .l-ten-twelve {
-    width: calc(100 / 12) * 10;
+    width: calc(((100% / 12) * 10) - ($gutter / 2));
   }
   .l-nine-twelve {
-    width: calc(100 / 12) * 9;
+    width: calc(((100% / 12) * 9) - ($gutter / 2));
   }
   .l-eight-twelve {
-    width: calc(100 / 12) * 8;
+    width: calc(((100% / 12) * 8) - ($gutter / 2));
   }
   .l-seven-twelve {
-    width: calc(100 / 12) * 7;
+    width: calc(((100% / 12) * 7) - ($gutter / 2));
   }
   .l-six-twelve {
-    width: calc(100 / 12) * 6;
+    width: calc(((100% / 12) * 6) - ($gutter / 2));
   }
   .l-five-twelve {
-    width: calc(100 / 12) * 5;
+    width: calc(((100% / 12) * 5) - ($gutter / 2));
   }
   .l-four-twelve {
-    width: calc(100 / 12) * 4;
+    width: calc(((100% / 12) * 4) - ($gutter / 2));
   }
   .l-three-twelve {
-    width: calc(100 / 12) * 3;
+    width: calc(((100% / 12) * 3) - ($gutter / 2));
   }
-  .l-two-twelce {
-    width: calc(100 / 12) * 2;
+  .l-two-twelve {
+    width: calc(((100% / 12) * 2) - ($gutter / 2));
   }
   .l-one-twelve {
-    width: calc(100 / 12);
+    width: calc((100% / 12) - ($gutter / 2));
   }
 }
 
 @include media ('<=m') {
   .m-full {
-    width: calc(100 / 12) * 12;
+    width: calc(((100% / 12) * 12) - ($tabletGutter / 2));
   }
   .m-eleven-twelve {
-    width: calc(100 / 12) * 11;
+    width: calc(((100% / 12) * 11) - ($tabletGutter / 2));
   }
   .m-ten-twelve {
-    width: calc(100 / 12) * 10;
+    width: calc(((100% / 12) * 10) - ($tabletGutter / 2));
   }
   .m-nine-twelve {
-    width: calc(100 / 12) * 9;
+    width: calc(((100% / 12) * 9) - ($tabletGutter / 2));
   }
   .m-eight-twelve {
-    width: calc(100 / 12) * 8;
+    width: calc(((100% / 12) * 8) - ($tabletGutter / 2));
   }
   .m-seven-twelve {
-    width: calc(100 / 12) * 7;
+    width: calc(((100% / 12) * 7) - ($tabletGutter / 2));
   }
   .m-six-twelve {
-    width: calc(100 / 12) * 6;
+    width: calc(((100% / 12) * 6) - ($tabletGutter / 2));
   }
   .m-five-twelve {
-    width: calc(100 / 12) * 5;
+    width: calc(((100% / 12) * 5) - ($tabletGutter / 2));
   }
   .m-four-twelve {
-    width: calc(100 / 12) * 4;
+    width: calc(((100% / 12) * 4) - ($tabletGutter / 2));
   }
   .m-three-twelve {
-    width: calc(100 / 12) * 3;
+    width: calc(((100% / 12) * 3) - ($tabletGutter / 2));
   }
-  .m-two-twelce {
-    width: calc(100 / 12) * 2;
+  .m-two-twelve {
+    width: calc(((100% / 12) * 2) - ($tabletGutter / 2));
   }
   .m-one-twelve {
-    width: calc(100 / 12);
+    width: calc((100% / 12) - ($tabletGutter / 2));
   }
 }
 
 @include media ('<=s') {
   .s-full {
-    width: calc(100 / 12) * 12;
+    width: 100%;
   }
   .s-eleven-twelve {
-    width: calc(100 / 12) * 11;
+    width: calc(((100% / 12) * 11) - ($mobileGutter / 2));
   }
   .s-ten-twelve {
-    width: calc(100 / 12) * 10;
+    width: calc(((100% / 12) * 10) - ($mobileGutter / 2));
   }
   .s-nine-twelve {
-    width: calc(100 / 12) * 9;
+    width: calc(((100% / 12) * 9) - ($mobileGutter / 2));
   }
   .s-eight-twelve {
-    width: calc(100 / 12) * 8;
+    width: calc(((100% / 12) * 8) - ($mobileGutter / 2));
   }
   .s-seven-twelve {
-    width: calc(100 / 12) * 7;
+    width: calc(((100% / 12) * 7) - ($mobileGutter / 2));
   }
   .s-six-twelve {
-    width: calc(100 / 12) * 6;
+    width: calc(((100% / 12) * 6) - ($mobileGutter / 2));
   }
   .s-five-twelve {
-    width: calc(100 / 12) * 5;
+    width: calc(((100% / 12) * 5) - ($mobileGutter / 2));
   }
   .s-four-twelve {
-    width: calc(100 / 12) * 4;
+    width: calc(((100% / 12) * 4) - ($mobileGutter / 2));
   }
   .s-three-twelve {
-    width: calc(100 / 12) * 3;
+    width: calc(((100% / 12) * 3) - ($mobileGutter / 2));
   }
-  .s-two-twelce {
-    width: calc(100 / 12) * 2;
+  .s-two-twelve {
+    width: calc(((100% / 12) * 2) - ($mobileGutter / 2));
   }
   .s-one-twelve {
-    width: calc(100 / 12);
+    width: calc((100% / 12) - ($mobileGutter / 2));
   }
 }
 
 @include media ('<=xs') {
   .xs-full {
-    width: calc(100 / 12) * 12;
+    width: 100%;
   }
   .xs-eleven-twelve {
-    width: calc(100 / 12) * 11;
+    width: calc(((100% / 12) * 11) - ($mobileGutter / 2));
   }
   .xs-ten-twelve {
-    width: calc(100 / 12) * 10;
+    width: calc(((100% / 12) * 10) - ($mobileGutter / 2));
   }
   .xs-nine-twelve {
-    width: calc(100 / 12) * 9;
+    width: calc(((100% / 12) * 9) - ($mobileGutter / 2));
   }
   .xs-eight-twelve {
-    width: calc(100 / 12) * 8;
+    width: calc(((100% / 12) * 8) - ($mobileGutter / 2));
   }
   .xs-seven-twelve {
-    width: calc(100 / 12) * 7;
+    width: calc(((100% / 12) * 7) - ($mobileGutter / 2));
   }
   .xs-six-twelve {
-    width: calc(100 / 12) * 6;
+    width: calc(((100% / 12) * 6) - ($mobileGutter / 2));
   }
   .xs-five-twelve {
-    width: calc(100 / 12) * 5;
+    width: calc(((100% / 12) * 5) - ($mobileGutter / 2));
   }
   .xs-four-twelve {
-    width: calc(100 / 12) * 4;
+    width: calc(((100% / 12) * 4) - ($mobileGutter / 2));
   }
   .xs-three-twelve {
-    width: calc(100 / 12) * 3;
+    width: calc(((100% / 12) * 3) - ($mobileGutter / 2));
   }
-  .xs-two-twelce {
-    width: calc(100 / 12) * 2;
+  .xs-two-twelve {
+    width: calc(((100% / 12) * 2) - ($mobileGutter / 2));
   }
   .xs-one-twelve {
-    width: calc(100 / 12);
+    width: calc((100% / 12) - ($mobileGutter / 2));
   }
 }
