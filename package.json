@@ -1,7 +1,8 @@
 {
   "name": "johnsonkreis",
   "version": "1.0.0",
-  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "description":
+    "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
   "main": "main.js",
   "scripts": {
     "start": "webpack --watch",
